@@ -2,7 +2,7 @@
 #==============================================================================
 #       init.qti.media.sh
 #
-# Copyright (c) 2020-2022, Qualcomm Technologies, Inc.
+# Copyright (c) 2020-2023, Qualcomm Technologies, Inc.
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
@@ -50,7 +50,7 @@ case "$target" in
         case "$soc_hwid" in
             475|515)
                 setprop vendor.media.target_variant "_yupik_v0"
-                if [ $build_codename -le "13" ]; then
+                if [ $build_codename -le "14" ]; then
                     setprop vendor.netflix.bsp_rev "Q7325-SPY-33758-1"
                 fi
                 sku_ver=`cat /sys/devices/platform/soc/aa00000.qcom,vidc/sku_version` 2> /dev/null
@@ -79,7 +79,7 @@ case "$target" in
                 else
                     setprop vendor.media.target_variant "_lahaina"
                 fi
-                if [ $build_codename -le "13" ]; then
+                if [ $build_codename -le "14" ]; then
                     setprop vendor.netflix.bsp_rev "Q875-32408-1"
                 fi
                 ;;
@@ -87,7 +87,7 @@ case "$target" in
         ;;
     "holi")
         case "$soc_hwid" in
-            507|565)
+            507|565|628|647)
                 setprop vendor.media.target_variant "_blair"
                 if [ $build_codename -le "13" ]; then
                     setprop vendor.netflix.bsp_rev "Q4350-32962-1"

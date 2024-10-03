@@ -22,6 +22,7 @@ UPDATE qcril_properties_table SET def_val="30" WHERE property="persist.vendor.ra
 UPDATE qcril_properties_table SET def_val="1" WHERE property="persist.vendor.radio.0x9e_not_callname";
 UPDATE qcril_properties_table SET def_val="0" WHERE property="persist.vendor.radio.facnotsup_as_nonw";
 INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist.vendor.radio.is_wps_enabled", "true");
+INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist.vendor.radio.force_gba_over_isim_app", "false");
 INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist.vendor.radio.force_get_pref", "1");
 INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist.vendor.radio.msgtunnel.start", "true");
 INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES("persist.data.qmi.adb_logmask", "0");

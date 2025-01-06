@@ -340,15 +340,6 @@ PRODUCT_PACKAGES += \
     vulkan.adreno \
     libC2D2 \
     libCB \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
-    libOmxWmaDec \
     libOpenCL \
     libVkLayer_q3dtools \
     libacdb-fts \
@@ -447,10 +438,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal@1.0_vendor \
     libDxHdcp \
     libFileMux_proprietary \
-    libOmxDsdDec \
-    libOmxVideoDSMode \
     libadm \
-    libdsd2pcm \
     libmm-hdcpmgr \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
@@ -899,7 +887,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
-    vendor.dolby.media.c2@1.0-service.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss@4.2-service.xml \
     vendor.qti.hardware.servicetracker@1.2-service.xml \
